@@ -8,7 +8,7 @@ int main() {
     float fahrenheit = 0.0f;
     float celsius = 0.0f;
 
-    printf("Temperature Conversion Program");
+    printf("Temperature Conversion Program\n");
     printf("C. Celsius to Fahrenheit\n");
     printf("F. Fahrenheit to Celsius\n");
     printf("Is the temp in Celsius (C) or Fahrenheit (F)?: ");
