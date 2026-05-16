@@ -5,32 +5,33 @@
 int main() {
     int age = 0;
 
-    // printf("Enter your age: ");
-    // scanf("%d", &age);
+    printf("Enter your age: ");
+    scanf("%d", &age);
+    getchar();
 
-    // if (age >= 65) {
-    //     printf("You are a senior\n");
-    // } 
-    // else if (age >= 18) {
-    //     printf("You are an adult\n");
-    // }
-    // else if (age < 0) {
-    //     printf("You haven't been born yet\n");
-    // } 
-    // else if (age == 0) {
-    //     printf("You are a newborn\n");
-    // }
-    // else {
-    //     printf("You are a child\n");
-    // }
+    if (age >= 65) {
+        printf("You are a senior\n");
+    } 
+    else if (age >= 18) {
+        printf("You are an adult\n");
+    }
+    else if (age < 0) {
+        printf("You haven't been born yet\n");
+    } 
+    else if (age == 0) {
+        printf("You are a newborn\n");
+    }
+    else {
+        printf("You are a child\n");
+    }
 
-    // bool isStudent = true;
-    // if (isStudent) {
-    //     printf("You are a student!\n");
-    // }
-    // else {
-    //     printf("You are a student!\n");
-    // }
+    bool isStudent = true;
+    if (isStudent) {
+        printf("You are a student!\n");
+    }
+    else {
+        printf("You are a student!\n");
+    }
 
     char name[50] = "";
     printf("Enter your name: ");
